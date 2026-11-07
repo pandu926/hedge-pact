@@ -6,7 +6,7 @@ When ADL closes a profitable short, the spot leg can remain exposed. Hedge Pact 
 
 Built for the Reactive Omni Buildathon, **Set It and Forget It**. Hyperliquid's xyz:SKHYNIX incident is the motivating narrative. This implementation uses a pinned full GMX engine in a testnet sandbox; it does not integrate with Hyperliquid.
 
-**[Open the app](https://pandu926.github.io/hedge-pact/)** · [Verified public receipts](app/public/proof.json)
+**[Open the app](https://hedge-pact.release-worried7z.chatgpt.site)** · [Verified public receipts](app/public/proof.json)
 
 Public run: native GMX short **100 → 60 ETH**, spot **100 → 60 ETH**, **99,660.227478 hpUSD** received through real token transfers, followed by a sequence-bound Reactive acknowledgement. These are synthetic test assets, not economic profit.
 
@@ -65,3 +65,7 @@ A successful testnet run demonstrates interoperability and policy execution. It 
 GMX Synthetics: [`a85ea3491c19c93bb4b5a002d9b358fb769b7849`](https://github.com/gmx-io/gmx-synthetics/tree/a85ea3491c19c93bb4b5a002d9b358fb769b7849). Upstream BUSL-1.1 and per-file notices remain intact. The fixture records constructor bytecode, libraries, ABI and configuration from the compiled engine. The deployer remaps dependencies; it does not substitute a custom venue.
 
 Our code outside `vendor` is MIT licensed. Dependencies retain their own notices. This is an unaudited testnet MVP.
+
+## Hosting
+
+The public artifact is hosted with Sites. GitHub Actions builds the same application from its lockfile. GitHub Pages inherits an unresolved custom domain from the account, so its account-wide domain settings were preserved. [Hosting identity](deployments/hosting.json) records the existing Site; updates must reuse that project rather than creating another one.
