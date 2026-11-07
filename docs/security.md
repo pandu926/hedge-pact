@@ -15,3 +15,5 @@ Unaudited synthetic-asset testnet sandbox. Do not deposit real assets.
 - **Production:** audits, independent feeds, real liquidity, finality/reorg handling, verified sources, monitoring, quota management, keeper fallback, and protocol governance permissions.
 
 Destination callbacks consume native Unichain testnet ETH from each user's vault. `pay` is restricted to the official proxy. Vault creation requires at least 0.00005 ETH; the UI allocates 0.0001 ETH. Owners can top up by sending ETH directly to their vault; after retirement they can settle proxy debt and withdraw remaining gas with `withdrawGas`.
+
+The source account's withdrawal exports collateral tokens. Unused GMX execution-fee ETH refunded into a source account has no native-ETH sweep in this version; the UI deliberately uses a small testnet fee of 0.00001 ETH per request. Native fee recovery is remaining work before any use with real funds.

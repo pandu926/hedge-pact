@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "durationSeconds": 83.050667,
+  "width": 1280,
+  "height": 720,
+  "videoCodec": "h264",
+  "audioCodec": "aac",
+  "reviewedFramesSeconds": [
+    3,
+    33,
+    48,
+    62
+  ],
+  "narration": "Synthetic English voice; factual testnet walkthrough",
+  "sha256": "2b00dee5e215a22b4d06906914b84ce85f8cb39547ba657ddf1a7eb7885c95ec"
+}
