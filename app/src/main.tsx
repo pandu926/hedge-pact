@@ -1,0 +1,10 @@
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import {WagmiProvider,createConfig,http} from 'wagmi';
+import {injected} from 'wagmi/connectors';
+import {baseSepolia,unichainSepolia} from 'wagmi/chains';
+import {QueryClient,QueryClientProvider} from '@tanstack/react-query';
+import App from './App';
+import './style.css';
+const config=createConfig({chains:[baseSepolia,unichainSepolia],connectors:[injected()],transports:{[baseSepolia.id]:http('https://base-sepolia-rpc.publicnode.com',{retryCount:3}),[unichainSepolia.id]:http('https://sepolia.unichain.org',{retryCount:3})}});
+createRoot(document.getElementById('root')!).render(<React.StrictMode><WagmiProvider config={config}><QueryClientProvider client={new QueryClient()}><App/></QueryClientProvider></WagmiProvider></React.StrictMode>);

@@ -1,0 +1,50 @@
+[
+  {
+    "title": "A hedge is a relationship.",
+    "sub": "Keep both sides of the pact.",
+    "text": "A hedge is a relationship between two positions. If auto deleveraging closes your profitable short, the spot leg on another chain can remain exposed. This is Hedge Pact.",
+    "image": "overview.png",
+    "voice": "voice-0.mp3",
+    "seconds": 10.808
+  },
+  {
+    "title": "Inspired by a real failure class.",
+    "sub": "Hyperliquid \u00b7 xyz:SKHYNIX",
+    "text": "The SK Hynix incident on Hyperliquid motivates this failure class. We do not claim to prevent its historical losses. Our implementation uses the full pinned GMX engine in an isolated testnet sandbox.",
+    "image": "incident.png",
+    "voice": "voice-1.mp3",
+    "seconds": 13.112
+  },
+  {
+    "title": "The short is the source of truth.",
+    "sub": "Native GMX. Actual remaining quantity.",
+    "text": "Each user gets an isolated market and source account on Base Sepolia. Native GMX A D L reduces a one hundred Ether short to sixty. The callback reads the actual remaining position, rather than accepting an operator supplied quantity.",
+    "image": "strategy.png",
+    "voice": "voice-2.mp3",
+    "seconds": 14.816
+  },
+  {
+    "title": "A decision crosses the chain boundary.",
+    "sub": "Observe \u2192 validate \u2192 settle \u2192 acknowledge.",
+    "text": "Reactive authenticates the observation and sends a guarded decision to Unichain Sepolia. The spot vault sells actual synthetic tokens in bounded chunks. Settlement receipts return the resulting balance and any remaining work.",
+    "image": "proof.png",
+    "voice": "voice-3.mp3",
+    "seconds": 14.096
+  },
+  {
+    "title": "Safety means having more than one answer.",
+    "sub": "Hold. Retry. Quarantine. Recover.",
+    "text": "An unsafe or stale reference holds trading. A failed swap preserves the actual balance. Retries stop after their budget. Recovery needs three healthy observations over thirty seconds, plus approval for the current incident.",
+    "image": "lab.png",
+    "voice": "voice-4.mp3",
+    "seconds": 13.688
+  },
+  {
+    "title": "Coordination you can inspect.",
+    "sub": "Keep both sides of the pact.",
+    "text": "We do not claim to beat a fast keeper. Earlier paired testing found the keeper faster in all ninety eight completed pairs. Our thesis is cross chain policy and verifiable settlement. Inspect the public receipts, tests, and source. Keep both sides of the pact.",
+    "image": "proof.png",
+    "voice": "voice-5.mp3",
+    "seconds": 16.4
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "environment": "LOCAL_FULL_GMX_ENGINE",
+  "upstream": "a85ea3491c19c93bb4b5a002d9b358fb769b7849",
+  "openedTokens": "100000000000000000000",
+  "remainingAfterAdl": "60000000000000000000",
+  "remainingAfterClose": "0",
+  "nativeCallbackCalls": "1",
+  "notPublic": true
+}

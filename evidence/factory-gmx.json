@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "environment": "LOCAL_FULL_GMX_ENGINE",
+  "isolatedMarkets": true,
+  "isolatedOracles": true,
+  "nativeShortTokens": "100000000000000000000",
+  "afterAdl": "60000000000000000000",
+  "afterClose": "0",
+  "nativeObservations": 2,
+  "feeWntBacked": true
+}

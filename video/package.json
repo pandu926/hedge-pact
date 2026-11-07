@@ -1,0 +1,1 @@
+{"name":"hedge-pact-demo","private":true,"version":"0.1.0","scripts":{"render":"remotion render src/index.ts HedgePact out/hedge-pact-demo.mp4 --codec h264 --crf 18"},"dependencies":{"remotion":"4.0.435","@remotion/cli":"4.0.435","react":"19.2.0","react-dom":"19.2.0"},"devDependencies":{"@types/react":"^19.2.0","typescript":"~5.9.3"}}

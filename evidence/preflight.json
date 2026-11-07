@@ -1,0 +1,27 @@
+{
+  "wallet": "0xB749369024f84215eeF025c65e246527120A3270",
+  "engineContracts": 64,
+  "localConstructorGas": 162830067,
+  "budgetsWei": {
+    "base": 20000000000000000,
+    "unichain": 10000000000000000,
+    "lasna": 3000000000000000000
+  },
+  "balancesWei": {
+    "base": 36465127037413297,
+    "unichain": 38800523660052172,
+    "lasna": 3537142729000000000
+  },
+  "gasPrices": {
+    "base": 6000000,
+    "unichain": 1500000,
+    "lasna": 100000000000
+  },
+  "forecastWei": {
+    "base": 6907921608000000,
+    "unichain": 1000000000000000,
+    "lasna": 2900000000000000000
+  },
+  "runtimeSizesValid": true,
+  "PASS": true
+}

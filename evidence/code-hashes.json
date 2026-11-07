@@ -1,0 +1,342 @@
+{
+  "base:RoleStore": {
+    "address": "0xed2347df07536bf60f298b8d4cf5784ebe9549c9",
+    "runtimeBytes": 2288,
+    "keccak": "0x33d3892584a077bf0c1511002365b7f1ece1a7bf9de3716b358263dc0e6cbe43"
+  },
+  "base:DataStore": {
+    "address": "0x62f8829af85241cf865f6c8f45e8a7de42473fb5",
+    "runtimeBytes": 10411,
+    "keccak": "0x3832e31410611e23f910714768d9a4ba67b9faa80531dbc8c707c49dbecf4e18"
+  },
+  "base:EventEmitter": {
+    "address": "0x85dd07a5eff020239a3815536f3a9c08938f7d88",
+    "runtimeBytes": 7814,
+    "keccak": "0x281d4a796a9e6ed8104fce851221a71f67ab13c9d7aad5866bb0e5c65fb873dc"
+  },
+  "base:Oracle": {
+    "address": "0xc54302fbc36933f45f172f9700af6bc6c053f1a8",
+    "runtimeBytes": 12482,
+    "keccak": "0x3d6e2afdaf0475d09190b7effb08aa3f774938a4158fedca9cb081f0433d637f"
+  },
+  "base:MultichainVault": {
+    "address": "0x27fdb2b84923466c5d77e2c41fd72e460a81118b",
+    "runtimeBytes": 4567,
+    "keccak": "0x552b53e98c56451578c4a70c449fba8d11661ae605edf131eda94990193ff5d8"
+  },
+  "base:OrderVault": {
+    "address": "0x90f31f2c12095c36bc848c1e05fcfd0aa7dd7117",
+    "runtimeBytes": 4567,
+    "keccak": "0x0615e63885a69a000b4bd0038b65f3e21e1247933267b031e4584cc31d2188cd"
+  },
+  "base:MarketEventUtils": {
+    "address": "0x01097fe7d88483bf4f006b811c6fdeebbb5435f4",
+    "runtimeBytes": 17508,
+    "keccak": "0xb0fe38113fb740c8229a8e02735063d9f7d5ee6187cb42f5598660d04af9f063"
+  },
+  "base:MarketStoreUtils": {
+    "address": "0x3fde5444855e33c5bdbb7443533011a4f72c4b92",
+    "runtimeBytes": 4784,
+    "keccak": "0xb18e06086d6423f8c1749b946334d988bf02e1a7efcdee5b7e9e7e53480b7914"
+  },
+  "base:MarketUtils": {
+    "address": "0xbe84cbf159e24263b33a6dcfa11ed0f0aea8f208",
+    "runtimeBytes": 24497,
+    "keccak": "0x91f04995c724a73914b4820a3a39ebdddbbabb2921db8635ef1b0237e3dfd876"
+  },
+  "base:FeeUtils": {
+    "address": "0x5f9fe19c7b8f1510b392b0c94903c41d006e4d83",
+    "runtimeBytes": 10762,
+    "keccak": "0x0bf5448ba8f34b33b2af5e677e43c273ce0c98a4f1c7e805896a42f21a6afc14"
+  },
+  "base:SwapPricingUtils": {
+    "address": "0x27c323d378923e2a3deec99868dcbe74d49eb1ea",
+    "runtimeBytes": 13451,
+    "keccak": "0xa3dfc69c2afce948320ec2899d4070c81b2357e022e94ec2520f7c84080c6879"
+  },
+  "base:SwapUtils": {
+    "address": "0xdc5c09d004d718af53ebd72a1a96b0c9342bb433",
+    "runtimeBytes": 13639,
+    "keccak": "0xd57175c20e17f40e16788f82d41e9636ec2979aced81785123e9443bc0efa16b"
+  },
+  "base:SwapHandler": {
+    "address": "0xc99fa893419420206c0f07eac046bd0614077d02",
+    "runtimeBytes": 2109,
+    "keccak": "0x4693485b7798ae114b8ecd18e7a38955377d7e269522bf88afdfb7e79e650df4"
+  },
+  "base:ReferralStorage": {
+    "address": "0x4ae9b44c25077ec9b8b958a1c51eec5663a737a1",
+    "runtimeBytes": 3193,
+    "keccak": "0xa46aec0e0035cad3f9407bc336d698c52364be70dea420b986c33ec32e4b3e33"
+  },
+  "base:PositionPricingUtils": {
+    "address": "0x2134ee2a6bdf9ef4474abc7d912b1bc663f42b2d",
+    "runtimeBytes": 86,
+    "keccak": "0x0ada49232265000638296dd5dadfb34d286e2b963f0d1378a90dc79bf526edfe"
+  },
+  "base:PositionUtils": {
+    "address": "0x8033ecbfd654722eb8941d1918291585efd17420",
+    "runtimeBytes": 23595,
+    "keccak": "0x8b254e3285759258dc8130035d7dba404842c1dc2659439c2ab6fb7367031360"
+  },
+  "base:PositionStoreUtils": {
+    "address": "0x2b45f6b9c3a1a39a0f8d6d3c7be2f85ca96773f9",
+    "runtimeBytes": 11664,
+    "keccak": "0xd51e6f1219bd91280cff8c168c19a4f8c8d03aa393d70cd5884691a186901fae"
+  },
+  "base:PositionEventUtils": {
+    "address": "0x8a699bddced295989e67c873fc7051e8455a2bed",
+    "runtimeBytes": 14697,
+    "keccak": "0x437ea0fac4414bf848c0fb119f4326231d5869365f08dd7782ddb5e6d75539d6"
+  },
+  "base:ReferralEventUtils": {
+    "address": "0xfc9a803e01924a8daecec95ea9c7e11122007a70",
+    "runtimeBytes": 3954,
+    "keccak": "0x094f13d895c981473cbf455dd3c1a5cf16a0136c19935b8963907e8c1252df26"
+  },
+  "base:IncreasePositionUtils": {
+    "address": "0xc3322d3c0f0b655040cfb631d89910b5b49ab426",
+    "runtimeBytes": 22357,
+    "keccak": "0x362486e05888be7a01b7acc61b58ceeae278a96f13b8f457c1aa7b3062c5437f"
+  },
+  "base:IncreaseOrderExecutor": {
+    "address": "0x52dae3269cdcfe52d716b70130c47c94c57af930",
+    "runtimeBytes": 8778,
+    "keccak": "0x2bf8213680fec4ec888cf1af80a7bbf252f7e7fedf959ebb481e9db324e9413f"
+  },
+  "base:MultichainUtils": {
+    "address": "0xbcae7623328c9f50aba5314798502944847f27cf",
+    "runtimeBytes": 6310,
+    "keccak": "0x74f9b7505cf8d7122dbd8240a101843d8c406cbf072e466e858cd0eb6af3a078"
+  },
+  "base:OrderEventUtils": {
+    "address": "0xe5044fbde90aa7b438d022960725184872aa09db",
+    "runtimeBytes": 11049,
+    "keccak": "0x39e5439818210aa505000bc1684bed3e11b642c00c7403ebd1c581695c5f5257"
+  },
+  "base:BaseOrderUtils": {
+    "address": "0x0ef5e01bbdd004e571484976dc45bbee370489c8",
+    "runtimeBytes": 86,
+    "keccak": "0x565ad0c40ce466083772ebcae2065f9d7196b403cee9bfe6d6c7c4e7cab85f0d"
+  },
+  "base:DecreasePositionSwapUtils": {
+    "address": "0x5c9677fd8f9cdb107b80b2bdbda6a735cbd02995",
+    "runtimeBytes": 5751,
+    "keccak": "0x1f2a9d63468b73534a363e25f67d82ffef7d5f569f88680b67517423810d9ab9"
+  },
+  "base:DecreasePositionCollateralUtils": {
+    "address": "0xc54c2b7ea338fa1324313425a111e0f722d726ce",
+    "runtimeBytes": 24258,
+    "keccak": "0x9da864f190a3a8bd06a99405605472bc90d9cf96e9b45ac42e53a02c36d59dc6"
+  },
+  "base:DecreasePositionUtils": {
+    "address": "0x8064e0295ac8009ba533e387d65152155c1cc2c1",
+    "runtimeBytes": 18491,
+    "keccak": "0xcd0a4dfce0cf7ed7567019a5765c139a364bd7b77d0cd6051f7a2c867ac1d419"
+  },
+  "base:DecreaseOrderExecutor": {
+    "address": "0x40f05af229761666e3512b5c6f0a8a82c77019e8",
+    "runtimeBytes": 12374,
+    "keccak": "0x611a4ca252aa1afcca44c524b54282fe0ba21befaab5aaaaa5905ab15ae480a5"
+  },
+  "base:SwapOrderExecutor": {
+    "address": "0x53842fc9264cdcd26803998eb04d021d822998a9",
+    "runtimeBytes": 7042,
+    "keccak": "0x51cfd56c49746bbb736f5285109474c08ec155278ab066d4b3e1e48607e44066"
+  },
+  "base:GasUtils": {
+    "address": "0xe6772eb23dacda0187efb3219b3c82594651d355",
+    "runtimeBytes": 18743,
+    "keccak": "0xba09597e6333246f5cd61c432f9c726ee3fb4dc6bec558ae9a7baeddc747a876"
+  },
+  "base:OrderStoreUtils": {
+    "address": "0xec1ad109b714123dde67616d8d746887c2ed38b9",
+    "runtimeBytes": 20430,
+    "keccak": "0x08745dbe32a44c862e41cf932b861669b94822d05a8943c641d5e4ef4c9220fc"
+  },
+  "base:IncreaseOrderUtils": {
+    "address": "0xf1ab329d78d256cfca673aa1c7406dc64a993f33",
+    "runtimeBytes": 86,
+    "keccak": "0xd8a4ba90de42fb43ee9dd534f7eb7fef36724fdd2d06ac34d5a7b7d2ee184c66"
+  },
+  "base:DecreaseOrderUtils": {
+    "address": "0xe42297771421de1db63c6e095c2ddcf8b9c8a888",
+    "runtimeBytes": 86,
+    "keccak": "0xd584b99a2422bb304c80c7c730b06e5a29feccca1cc17f46edf25ca54a94188f"
+  },
+  "base:SwapOrderUtils": {
+    "address": "0x09188a5e01f573f8bb1a0b457f001cc3e98a9f80",
+    "runtimeBytes": 86,
+    "keccak": "0x48178357f05bcc896010b22216a753f13c6ab7cf629dbb70ffb2e8a6855608f8"
+  },
+  "base:GlvDepositEventUtils": {
+    "address": "0xdc01c680a3081fe485553e3ce0ecf552f5fb675a",
+    "runtimeBytes": 8026,
+    "keccak": "0x7d331ef8f6b0cd296015c6d016c7b2e53cd63768f1ea0f27f06b504336f5499d"
+  },
+  "base:GlvWithdrawalEventUtils": {
+    "address": "0x3f6763c3be09fb9f68c3971049a0ca9401354377",
+    "runtimeBytes": 7553,
+    "keccak": "0xc5bfb90fb6a70c9b424fe5c1092c42e830c60597822841d60785a9a3edad2d5f"
+  },
+  "base:WithdrawalEventUtils": {
+    "address": "0x130216d042adaaa5c3661aa7cba4b7b6f153ed1b",
+    "runtimeBytes": 7687,
+    "keccak": "0xd3941113c3bc4258e07d687a2af932e32cbd913f91d7bd84353f65cf070eee42"
+  },
+  "base:DepositEventUtils": {
+    "address": "0x736afdaeeaa2a7755308ec818147d01e1c5c8a98",
+    "runtimeBytes": 8277,
+    "keccak": "0x4cb6ff96c7206af77630d0551b1648d4ed314404ee2b010d59adbf6f99f1d369"
+  },
+  "base:ShiftEventUtils": {
+    "address": "0x950756ffbbb79a290092f8f2a2b9090b98bea3d9",
+    "runtimeBytes": 7040,
+    "keccak": "0xa110d0242689f2eda857f7b38cd94f376a9eb46879882a0deb7b583456806c5e"
+  },
+  "base:CallbackUtils": {
+    "address": "0xf8cd33f2f348b899452ec7ff48f5e4a8d6cbad73",
+    "runtimeBytes": 23275,
+    "keccak": "0x1fba472b7259ccfa4a65e63e59269fb3aa367f02c49feec36f6235dc7de83ed4"
+  },
+  "base:ExecuteOrderUtils": {
+    "address": "0xa64b132820c59c4e1a7e9d26fa52ed99e8e0fcea",
+    "runtimeBytes": 18305,
+    "keccak": "0x797c74797be62f3202b6624926c7097cf5b1967d57dfb7ddfd7ba8ebbb76d92a"
+  },
+  "base:OrderUtils": {
+    "address": "0x59f496c6cae519a78d5a8fe5c8ee0d89cd6e8780",
+    "runtimeBytes": 18194,
+    "keccak": "0x3772eb733241ea6ce8fa67a9a1d87d820e14e9d655929d70073ee586eb6a7766"
+  },
+  "base:OrderHandler": {
+    "address": "0x04699cf3611f03f6d0ab245a569905a08948ce35",
+    "runtimeBytes": 23124,
+    "keccak": "0xb27aa6d88584b161442939a9ead4542c0b8ad63ad12c5f883711e2121ca781dd"
+  },
+  "base:AdlUtils": {
+    "address": "0xf105ccda0f2d63a7977708ef2be29c8509a40e38",
+    "runtimeBytes": 11184,
+    "keccak": "0xc276cd33aaad08cf72eba63c464a428af0364ac7341639692356557da8d8e89d"
+  },
+  "base:AdlHandler": {
+    "address": "0x1970dc4c032297ba477d2cb45a46c3f9a57308cb",
+    "runtimeBytes": 14069,
+    "keccak": "0xcea79450627efb611a3e9f7bba521653036c5b564d2ddc5de302ce26f0197e4c"
+  },
+  "base:RelayUtils": {
+    "address": "0xd607d816c7b14fd9774d7b98fa3212d1e1d96b67",
+    "runtimeBytes": 24520,
+    "keccak": "0x2e7e7a4f3ba2b1645bcea1f01b408043e76692d17cee0d57a2e9ccd95c4a37a9"
+  },
+  "base:Router": {
+    "address": "0x27196275afd31daf05b5b46fffa96d598f620f72",
+    "runtimeBytes": 1526,
+    "keccak": "0x0ddf489be7297b211261c18475d893d1e07351f62907589b8722a9e0b9cebd36"
+  },
+  "base:ExternalHandler": {
+    "address": "0xa469ae4a3e287549547fb5d732bb73f0e4545ce4",
+    "runtimeBytes": 2411,
+    "keccak": "0xe74e578b372f3519f22241baf106cc5806f619ba2fdae77894d0a985a63ed258"
+  },
+  "base:MultichainTransferRouter": {
+    "address": "0x80539608a85c3339fede0fd71850b774be2ab7f3",
+    "runtimeBytes": 20193,
+    "keccak": "0xb0c0a643302f049ea0bd1044dc161d57b61b9d8192c7196a7f2c2775864dd6fb"
+  },
+  "base:DepositVault": {
+    "address": "0x36f7aee3694f9274b78a2e23b2c29795d7123694",
+    "runtimeBytes": 4567,
+    "keccak": "0x21725f45150e2f934d8302cb4a2fcaa120d2c1b0dc381ae4398d538294a1b641"
+  },
+  "base:DepositStoreUtils": {
+    "address": "0x8d3d6ed0a9a0d59a58e5a771fc60e66f85a7ae90",
+    "runtimeBytes": 15417,
+    "keccak": "0xf7fea1b03dd3e903eacb8edde0713a6aa64cfc2a6de15d6f4a7f9b446ec66256"
+  },
+  "base:DepositUtils": {
+    "address": "0xe2d7f2f12b176857e633a7f866efbb9374ffb15a",
+    "runtimeBytes": 11419,
+    "keccak": "0xa12f23b81cf7b680d2fe48b078761a22451f7b310f8343989796ed815053e952"
+  },
+  "base:BridgeOutFromControllerUtils": {
+    "address": "0xd04c06f2919ecbd12080c4c9b2f1636bd5bb284a",
+    "runtimeBytes": 7334,
+    "keccak": "0xbd2fe395bd8a37abf1e6004f2e26d44fe6057e28de9bf1c9dee40160c3dbfaf9"
+  },
+  "base:ExecuteDepositUtils": {
+    "address": "0xe9a6ec04d6cada6d917647604f0b817d40b4874c",
+    "runtimeBytes": 21070,
+    "keccak": "0x93656bc7dd1b8156159bb070650f02711900f0245084165e6ab7f249cca20a45"
+  },
+  "base:DepositHandler": {
+    "address": "0x55c488c129a4d1dae578fdc304240206b2abc0ef",
+    "runtimeBytes": 14359,
+    "keccak": "0xcbaef8bc416e0bd8bbd6cf4226583f4edac359ce63ffb37ba5a47661057a499e"
+  },
+  "base:MarketFactory": {
+    "address": "0x545c7e2b01f812651ac7e0b983d345fa4b30e38b",
+    "runtimeBytes": 11786,
+    "keccak": "0xe6779117607f4eb4ce791064387539fbe3c2b8e136a4b0542b652b8f6ac15fdf"
+  },
+  "base:ReaderDepositUtils": {
+    "address": "0x940f9db363ca357141e716ad5680320773eed4e2",
+    "runtimeBytes": 5182,
+    "keccak": "0xdfc700d2df76129b21d43c20e314996e9f543929647f38ff2e76c45306e39835"
+  },
+  "base:ReaderPricingUtils": {
+    "address": "0xa45224c35cbd3d26597078786a857bf8961f494d",
+    "runtimeBytes": 10622,
+    "keccak": "0xe80f0f164258f1cae7bf7b3cfc75aa58efae0d25e524699faf612cd9a41e6645"
+  },
+  "base:ReaderPositionUtils": {
+    "address": "0x01251abbbe84d5caea793a2d91fd530807348471",
+    "runtimeBytes": 24348,
+    "keccak": "0x5a60ba3e7fc49b34678f8420d16697b790b743fe5cc222f6d97426e18132db14"
+  },
+  "base:ReaderUtils": {
+    "address": "0x01f7ba0c48d9c64fe7bf0eea12ff2bad3ea887f6",
+    "runtimeBytes": 20109,
+    "keccak": "0x310806f9f02f06187feb44fabd2782abd626dbd1cdedc0550751b8c2ddffc40d"
+  },
+  "base:ReaderWithdrawalUtils": {
+    "address": "0x271d84f175e59bd3f0a21bbcfd20267f96eff6a5",
+    "runtimeBytes": 3305,
+    "keccak": "0xf11a4c07f8ea506c69f98edaed735cba57a9304027ba5f9a0944fb36e484afd1"
+  },
+  "base:ShiftStoreUtils": {
+    "address": "0xd19df782d931019a64c9ecbcf6c190446a715f41",
+    "runtimeBytes": 11249,
+    "keccak": "0x8cc71e320fd09d2df6873b943dd01bbca07f5117de78ea3d59a96735696216d6"
+  },
+  "base:WithdrawalStoreUtils": {
+    "address": "0x98843cf317caf80c495cf4c2215d8ea86f36b669",
+    "runtimeBytes": 13957,
+    "keccak": "0xc7761547c5fbf779d2d59cca39e267a69554ea9f38b5a90503d661f5665ec3b7"
+  },
+  "base:Reader": {
+    "address": "0xde19d89467c9aa20ecf42d4144a2aa1e7ee56508",
+    "runtimeBytes": 23987,
+    "keccak": "0xb00b23afe91df4a164c906559a9c0b7bfc10fab6a8347ad59aa083cbb6c8cc09"
+  },
+  "base:WrappedNative": {
+    "address": "0xafd6dfd1d34a15ae942b346c6cf926725eb1bb2f",
+    "runtimeBytes": 2150,
+    "keccak": "0xaf1af0c27b20f31ab1e4a14d2b67a95bf7d705f81808ff8b66830f284d5d4dd6"
+  },
+  "base:SourceFactory": {
+    "address": "0x05e487de88b07b386faf5cd864eb54810992448b",
+    "runtimeBytes": 22285,
+    "keccak": "0x7cfb432ef76a2a2ae98e482449bcc4fc823d0712a7cded5a35554fa4abca4450"
+  },
+  "unichain:SpotFactory": {
+    "address": "0x6591c4afce301eae2a95bd15fd4203aa276b7a95",
+    "runtimeBytes": 18405,
+    "keccak": "0x303a6b02b0bdd88edf4f429754d891bd1b5c1f0da1ace6e1944845115220bae1"
+  },
+  "lasna:Coordinator": {
+    "address": "0x6eec97de277823e57732e0f793ddfeebca93e618",
+    "runtimeBytes": 8467,
+    "keccak": "0x99ef4a3f2c357d763647491f79eb5db9a6cc9f853f6812ba7bca56010591a2b7"
+  }
+}

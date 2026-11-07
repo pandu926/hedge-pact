@@ -1,0 +1,23 @@
+{
+  "startingBalancesWei": {
+    "base": 37101455822637054,
+    "unichain": 38800523660052176,
+    "lasna": 3537142729000000000
+  },
+  "currentWalletBalancesWei": {
+    "base": 35716676561964420,
+    "unichain": 38585546094115695,
+    "lasna": 540840842000000000
+  },
+  "netWalletReductionWei": {
+    "base": 1384779260672634,
+    "unichain": 214977565936481,
+    "lasna": 2996301887000000000
+  },
+  "capsWei": {
+    "base": 20000000000000000,
+    "unichain": 10000000000000000,
+    "lasna": 3000000000000000000
+  },
+  "withinCaps": true
+}

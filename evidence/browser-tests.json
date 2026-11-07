@@ -1,0 +1,12 @@
+[
+  {
+    "viewport": "desktop",
+    "status": "PASS",
+    "runtimeErrors": 0
+  },
+  {
+    "viewport": "mobile",
+    "status": "PASS",
+    "runtimeErrors": 0
+  }
+]

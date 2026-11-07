@@ -1,0 +1,52 @@
+{
+  "status": "FAILED_CALLBACK_BILLING",
+  "transactions": [
+    {
+      "network": "base",
+      "hash": "0xadb8055b9af93ebd7b022499db691527374f77abbea444d80efe85599a849b23",
+      "label": "demo-create",
+      "block": 55642923
+    },
+    {
+      "network": "base",
+      "hash": "0x9b0381a379d4a76f233cee773fbe589f6d625ac5ca1a4224907523c01cf85588",
+      "label": "demo-seed",
+      "block": 55642928
+    },
+    {
+      "network": "base",
+      "hash": "0x4954dc109645a076f8d3bf362713fbe28366968f5dcd953917a863c3b913e5cf",
+      "label": "demo-execute-seed",
+      "block": 55642932
+    },
+    {
+      "network": "base",
+      "hash": "0xdb6844860c840f170749c31bdd9382ebbbbacade617b471e79251eaf40b8de5f",
+      "label": "demo-open",
+      "block": 55642938
+    },
+    {
+      "network": "base",
+      "hash": "0xc627913c177197b378bc949e974374580c760469ab3f3ff1fc04004ec1640d9a",
+      "label": "demo-execute-open",
+      "block": 55642944
+    },
+    {
+      "network": "unichain",
+      "hash": "0xf25461e3a46865b7452f60524e7d17c2507bce710a1bf4f009d3f2f9a19aed02",
+      "label": "demo-create-spot",
+      "block": 67198031
+    },
+    {
+      "network": "base",
+      "hash": "0x2999b1a8658ed58c12b8801f89b79bf8a64bcf7716ccc3ae519f90396ad22b99",
+      "label": "demo-arm",
+      "block": 55642975
+    }
+  ],
+  "source": "0x69f4d12011904b21adb3e41863d4af1c6cb1dc2d",
+  "id": "0xbb689560ea7fc98f49a9f9a39e82b439864882ae104256bbed706623e36eed9f",
+  "before": "100",
+  "vault": "0x03a0f582a0b8d9360a892e35974122331b07e52b",
+  "note": "Binding succeeded, but unfunded destination vault could not pay proxy fees. Replaced by funded AbstractCallback vault."
+}

@@ -1,0 +1,10 @@
+[profile.default]
+src = "src"
+test = "test"
+libs = ["../vendor"]
+solc_version = "0.8.29"
+evm_version = "cancun"
+optimizer = true
+optimizer_runs = 10
+via_ir = true
+remappings = ["@gmx/=../vendor/gmx/contracts/", "@reactive/=../vendor/reactive/", "@openzeppelin/contracts/=../vendor/gmx/node_modules/@openzeppelin/contracts/", "forge-std/=../vendor/forge-std/src/"]

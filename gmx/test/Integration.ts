@@ -1,0 +1,34 @@
+import {expect} from "chai";
+import hre from "hardhat";
+import fs from "fs";
+import path from "path";
+import {deployFixture} from "../../vendor/gmx/utils/fixture";
+import {grantRole} from "../../vendor/gmx/utils/role";
+import {parseLogs} from "../../vendor/gmx/utils/event";
+import {getCancellationReason,getErrorString} from "../../vendor/gmx/utils/error";
+import * as keys from "../../vendor/gmx/utils/keys";
+const artifact=(file:string,name:string)=>JSON.parse(fs.readFileSync(path.resolve(__dirname,`../../contracts/out/${file}.sol/${name}.json`),"utf8"));
+async function deploy(file:string,name:string,args:any[]){const a=artifact(file,name);const c=await new hre.ethers.ContractFactory(a.abi,a.bytecode.object,(await hre.ethers.getSigners())[0]).deploy(...args);await c.deployed();return c;}
+describe("HedgePact.FactoryGMXIntegration",()=>{it("isolates two users and publishes real native short ADL truth",async()=>{
+ const f=await deployFixture();const c=f.contracts;const {wallet,user0,user1}=f.accounts;
+ const wrapped=await deploy("WrappedNative","WrappedNative",[]);
+ await c.dataStore.setAddress(keys.WNT,wrapped.address);
+ const engine=[c.dataStore.address,c.reader.address,c.orderHandler.address,c.orderVault.address,c.depositHandler.address,c.depositVault.address,c.adlHandler.address,c.marketFactory.address,c.oracle.address,wrapped.address,c.decreaseOrderExecutor.address];
+ const source=await deploy("Source","SourceFactory",[engine]);await source.setCoordinator(wallet.address);
+ for(const role of ["CONTROLLER","ORDER_KEEPER","ADL_KEEPER","DEPOSIT_KEEPER","MARKET_KEEPER"])await grantRole(c.roleStore,source.address,role);
+ const fee={value:hre.ethers.utils.parseEther("0.001"),gasLimit:12000000};
+ await source.connect(user0).create();await source.connect(user1).create();
+ const [a0]=await source.list(user0.address);const [a1]=await source.list(user1.address);
+ const aa=artifact("Source","SourceAccount").abi;const a=new hre.ethers.Contract(a0,aa,wallet);const b=new hre.ethers.Contract(a1,aa,wallet);
+ expect(await a.market()).not.eq(await b.market());expect(await a.indexToken()).not.eq(await b.indexToken());
+ const id=await a.id();
+ await source.connect(user0).seed(id,fee);const seedReceipt=await(await source.connect(user0).executeSeed(id,{gasLimit:15000000})).wait();const seedCancel=await getCancellationReason({logs:parseLogs(f,seedReceipt),eventName:"DepositCancelled"});if(seedCancel)throw Error("Seed: "+getErrorString(seedCancel));
+ await source.connect(user0).openShort(id,fee);const openReceipt=await(await source.connect(user0).execute(id,{gasLimit:15000000})).wait();const orderCancel=await getCancellationReason({logs:parseLogs(f,openReceipt),eventName:"OrderCancelled"});if(orderCancel)throw Error("Open: "+getErrorString(orderCancel));
+ expect(await a.shortTokens()).eq(hre.ethers.utils.parseEther("100"));await source.connect(user0).arm(id);
+ const r=await(await source.connect(user0).adl(id,hre.ethers.BigNumber.from(200000).mul(hre.ethers.BigNumber.from(10).pow(30)),{gasLimit:15000000})).wait();
+ expect(await a.shortTokens()).eq(hre.ethers.utils.parseEther("60"));expect(await b.shortTokens()).eq(0);
+ const observations=r.logs.filter((l:any)=>l.address.toLowerCase()===source.address.toLowerCase()).map((l:any)=>source.interface.parseLog(l)).filter((l:any)=>l.name==="ObservationPublished");expect(observations.length).gte(2);
+ await expect(source.connect(user1).adl(id,1)).revertedWith("manager");
+ await source.connect(user0).closeShort(id,fee);await source.connect(user0).execute(id,{gasLimit:15000000});expect(await a.shortTokens()).eq(0);
+ fs.writeFileSync(path.resolve(__dirname,"../../evidence/factory-gmx.json"),JSON.stringify({status:"PASS",environment:"LOCAL_FULL_GMX_ENGINE",isolatedMarkets:true,isolatedOracles:true,nativeShortTokens:"100000000000000000000",afterAdl:"60000000000000000000",afterClose:"0",nativeObservations:observations.length,feeWntBacked:true},null,2));
+});});

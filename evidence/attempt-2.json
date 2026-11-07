@@ -1,0 +1,45 @@
+{
+  "status": "FAILED_REGISTRATION_CLOCK_SKEW",
+  "transactions": [
+    {
+      "network": "base",
+      "hash": "0x8334e30dda14e089b2467dda767d0834c3f7af51219b5cb5859278b6441bfeb9",
+      "label": "demo-create",
+      "block": 55644216
+    },
+    {
+      "network": "base",
+      "hash": "0x0e9f841532b460678142c40380d00d6b316067310e3ee55af1d28331dfd530c8",
+      "label": "demo-seed",
+      "block": 55644220
+    },
+    {
+      "network": "base",
+      "hash": "0x67590dfb681217791a2d6d64896481e3681b429da64607346698600e7e15450a",
+      "label": "demo-execute-seed",
+      "block": 55644224
+    },
+    {
+      "network": "base",
+      "hash": "0xe8f370c0386b7b7d83633a456b2f2b3a5f676737577c4d13c53d0f33d0c53ee3",
+      "label": "demo-open",
+      "block": 55644229
+    },
+    {
+      "network": "base",
+      "hash": "0x8dc1cde29b21f382487df71d2bf1fdc6ad9b5e0f61de265b4e7b65acfc68d401",
+      "label": "demo-execute-open",
+      "block": 55644233
+    },
+    {
+      "network": "unichain",
+      "hash": "0x89c68fca563b2a8b3bbe0ad4490fa416e7d8ad84a98276ea5395f794ff2f11cd",
+      "label": "demo-create-spot",
+      "block": 67198289
+    }
+  ],
+  "source": "0xbaa3363fa8059097596a12d1a01234ec30faea09",
+  "id": "0xbb689560ea7fc98f49a9f9a39e82b439864882ae104256bbed706623e36eed9f",
+  "before": "100",
+  "note": "Source registration arrived with a source-chain timestamp ahead of Lasna. Added a 60-second registration clock-skew tolerance."
+}

@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "environment": "PUBLIC_TESTNET",
+  "sourceNativeAdl": "0x41d26c6582ff4b9c52a38769a2be9c3b12e636b07bce213a2d3bd94062c4e405",
+  "nativeObservationCount": 2,
+  "reactiveDecisions": [
+    "0xfa5888c3a5bbd0a4d92ea75a1bab473d4477a02372aa1bc84d4d6029aa228816",
+    "0xd362f5a7222957f280ba7fb1bf336fc62a94cb66b5de76a0d26173701a098f72"
+  ],
+  "spotSettlements": [
+    {
+      "hash": "0xc373df1105a880a789bc7245de95c92935ee863e9cb5957c3a4f05bb9b8b2307",
+      "soldWei": 25000000000000000000,
+      "receivedUnits": 62296972479,
+      "actualSpotWei": 75000000000000000000,
+      "sequence": 4,
+      "nativeFrom": "0xf7e866d726658f6c3f14b8ee537fe268a4d91ddb",
+      "nativeTo": "0x775c9b990ade401060b78d0e98684eef8d2466c1"
+    },
+    {
+      "hash": "0x3899364846b1b996e1160b7750bcd354e152dae586c47188beabff6549fa6d60",
+      "soldWei": 15000000000000000000,
+      "receivedUnits": 37363254999,
+      "actualSpotWei": 60000000000000000000,
+      "sequence": 5,
+      "nativeFrom": "0xf7e866d726658f6c3f14b8ee537fe268a4d91ddb",
+      "nativeTo": "0x775c9b990ade401060b78d0e98684eef8d2466c1"
+    }
+  ],
+  "finalAcknowledgements": [
+    "0xde156b571bd87b48d75d9698f0926e7c0bd42f6a0e9ad5ad6e95ecf9e92e7a20"
+  ],
+  "spotSoldWei": 40000000000000000000,
+  "syntheticUsdReceivedUnits": 99660227478,
+  "sourceChain": 84532,
+  "destinationChain": 1301,
+  "coordinatorChain": 5318007,
+  "latencyAdvantageClaimed": false,
+  "historicalLossAvoidedClaimed": false
+}

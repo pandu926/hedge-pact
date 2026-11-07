@@ -1,0 +1,127 @@
+{
+  "status": "VERIFIED",
+  "transactions": [
+    {
+      "network": "base",
+      "hash": "0x0b51979a3b35fa6b395ecf48ead960ae5819a16aaa2d57f2ab971402989e9e69",
+      "label": "demo-create",
+      "block": 55645760
+    },
+    {
+      "network": "base",
+      "hash": "0x7c64b46136d6d0518b9bb322a8ecff3ff9fc43f71041b08dfde70c1d8591a40e",
+      "label": "demo-seed",
+      "block": 55645770
+    },
+    {
+      "network": "base",
+      "hash": "0xd44ba4ce4f8f608a6cd2d686ca90700376bb6ead8c9cb62932979d67f29c5b14",
+      "label": "demo-execute-seed",
+      "block": 55645774
+    },
+    {
+      "network": "base",
+      "hash": "0xa7a9b8d9dd5e6f261192a15cbcd3de0ccd0f02e94aa071395133879a6438947d",
+      "label": "demo-open",
+      "block": 55645779
+    },
+    {
+      "network": "base",
+      "hash": "0x71d2c8a081c43c017b869e8aeac740ed010fbff686d6015f36bb5fe1af04daa1",
+      "label": "demo-execute-open",
+      "block": 55645784
+    },
+    {
+      "network": "unichain",
+      "hash": "0x3e6dfb92400683dbbc6c1492e58f211daf880dbb8e489ab8d1dd81e17383d283",
+      "label": "demo-create-spot",
+      "block": 67198599
+    },
+    {
+      "network": "base",
+      "hash": "0x3a3c2bcfa06d64085a7004b90e78ec4be8bcfa8198701fd1e5fe6c01dcdfa9d3",
+      "label": "demo-arm",
+      "block": 55645820
+    },
+    {
+      "network": "unichain",
+      "hash": "0x8e5d7572ee0d6c0c0fbaeb12d25df28e7d3729f55eea201af936d7322ceeaf07",
+      "label": "demo-spot-context",
+      "block": 67198612
+    },
+    {
+      "network": "base",
+      "hash": "0x41d26c6582ff4b9c52a38769a2be9c3b12e636b07bce213a2d3bd94062c4e405",
+      "label": "demo-native-adl",
+      "block": 55645859
+    },
+    {
+      "network": "unichain",
+      "hash": "0xf41ce199a59c65cbd7691086b54d1ae10d3f3e44ce7174570b9c52a3e5211c2a",
+      "label": "Reactive callback / spot vault event",
+      "block": 67198602
+    },
+    {
+      "network": "unichain",
+      "hash": "0xbb18f732eb7354ffac7ef275e6f53d3a6123c8b1a585e77399d8ebcefd3c4069",
+      "label": "Reactive callback / spot vault event",
+      "block": 67198608
+    },
+    {
+      "network": "unichain",
+      "hash": "0xc373df1105a880a789bc7245de95c92935ee863e9cb5957c3a4f05bb9b8b2307",
+      "label": "Reactive callback / spot vault event",
+      "block": 67198615
+    },
+    {
+      "network": "unichain",
+      "hash": "0x3899364846b1b996e1160b7750bcd354e152dae586c47188beabff6549fa6d60",
+      "label": "Reactive callback / spot vault event",
+      "block": 67198617
+    },
+    {
+      "network": "lasna",
+      "hash": "0x19d1efb0eb4042eb27a6bd1eca94123f8a193830045f4d036ac685c0585d8f45",
+      "label": "Reactive decision / receipt",
+      "block": 7754082
+    },
+    {
+      "network": "lasna",
+      "hash": "0xed068b5ea9d4aed0200c7a3ddfb875cfbb4123e55e5ff1ff8661e333fcf828a7",
+      "label": "Reactive decision / receipt",
+      "block": 7754087
+    },
+    {
+      "network": "lasna",
+      "hash": "0x0b8062429567ff37245ea75e754cc9225440abdcba8ebe3132f2032dda956385",
+      "label": "Reactive decision / receipt",
+      "block": 7754090
+    },
+    {
+      "network": "lasna",
+      "hash": "0xfa5888c3a5bbd0a4d92ea75a1bab473d4477a02372aa1bc84d4d6029aa228816",
+      "label": "Reactive decision / receipt",
+      "block": 7754094
+    },
+    {
+      "network": "lasna",
+      "hash": "0xd362f5a7222957f280ba7fb1bf336fc62a94cb66b5de76a0d26173701a098f72",
+      "label": "Reactive decision / receipt",
+      "block": 7754094
+    },
+    {
+      "network": "lasna",
+      "hash": "0xde156b571bd87b48d75d9698f0926e7c0bd42f6a0e9ad5ad6e95ecf9e92e7a20",
+      "label": "Reactive decision / receipt",
+      "block": 7754098
+    }
+  ],
+  "source": "0x571c279f99e7e7b192c4ef034cf215a224da0349",
+  "id": "0xbb689560ea7fc98f49a9f9a39e82b439864882ae104256bbed706623e36eed9f",
+  "before": "100",
+  "vault": "0xffd4284cd746d2d63656be6e5d08fba789a3eade",
+  "after": "60",
+  "sold": "40",
+  "received": "99660.227478",
+  "note": "Actual native GMX short: 100 \u2192 60 ETH. Actual spot: 100 \u2192 60 ETH. Synthetic tokens; authenticated Reactive callbacks and acknowledgement. No latency or profit claim."
+}

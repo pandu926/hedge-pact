@@ -1,0 +1,62 @@
+[
+  {
+    "network": "base",
+    "hash": "0x1e032de7d8c0b0e002bde3c3c351723b95b89a3ebd2f712ab5fec28125883566",
+    "factory": "0x914688eeb7bbae730130647a59647c5caa9b6848",
+    "roleRevoked": "CONTROLLER"
+  },
+  {
+    "network": "base",
+    "hash": "0x4d040941bcab522adc068e42503b81845c99893c732b0fb3e1469ba6abd33bb1",
+    "factory": "0x914688eeb7bbae730130647a59647c5caa9b6848",
+    "roleRevoked": "MARKET_KEEPER"
+  },
+  {
+    "network": "base",
+    "hash": "0x2391650565ee8005c3ba7beb3003203f525368da0ccabca5c0be3e1a0b53156b",
+    "factory": "0x914688eeb7bbae730130647a59647c5caa9b6848",
+    "roleRevoked": "ORDER_KEEPER"
+  },
+  {
+    "network": "base",
+    "hash": "0x3ded72e2edad00b39545fbfc938b25b12b13b98184634994bff0ba2fff78ea0b",
+    "factory": "0x914688eeb7bbae730130647a59647c5caa9b6848",
+    "roleRevoked": "ADL_KEEPER"
+  },
+  {
+    "network": "base",
+    "hash": "0xf725d54f1cf645974d334a73996fd1a62fda060a323fd418b052ac900f2534cd",
+    "factory": "0x914688eeb7bbae730130647a59647c5caa9b6848",
+    "roleRevoked": "DEPOSIT_KEEPER"
+  },
+  {
+    "network": "base",
+    "hash": "0xd64cc0a9a0bda128cdbb87e9ac7ca63416fe599376fffba49237bba29320d1c4",
+    "factory": "0xfbaf18725a941b60902dfad21cdaf5ad7f0e1b3d",
+    "roleRevoked": "CONTROLLER"
+  },
+  {
+    "network": "base",
+    "hash": "0xc259b2fa0b02edc317060319280b604fad5df865dbb17283812836368877a063",
+    "factory": "0xfbaf18725a941b60902dfad21cdaf5ad7f0e1b3d",
+    "roleRevoked": "MARKET_KEEPER"
+  },
+  {
+    "network": "base",
+    "hash": "0xdaf97ebbbd96efe103acf0ca4c60f746b5e219d3efb34c0b548be067371f6894",
+    "factory": "0xfbaf18725a941b60902dfad21cdaf5ad7f0e1b3d",
+    "roleRevoked": "ORDER_KEEPER"
+  },
+  {
+    "network": "base",
+    "hash": "0xc661a3bb7b6f752f9950a47768d4a1bb1fc36a38f7108968b89b8256f76c83a0",
+    "factory": "0xfbaf18725a941b60902dfad21cdaf5ad7f0e1b3d",
+    "roleRevoked": "ADL_KEEPER"
+  },
+  {
+    "network": "base",
+    "hash": "0xccbf3a0b71084f4acb790a6db0cf8b235d3f9a6ad9dbe8fb6b656ef9277c4d48",
+    "factory": "0xfbaf18725a941b60902dfad21cdaf5ad7f0e1b3d",
+    "roleRevoked": "DEPOSIT_KEEPER"
+  }
+]

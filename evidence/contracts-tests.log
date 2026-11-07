@@ -1,0 +1,37 @@
+Compiling 3 files with Solc 0.8.29
+Solc 0.8.29 finished in 20.31s
+Compiler run successful!
+
+Ran 7 tests for test/Spot.t.sol:CoordinatorTest
+[PASS] testExpiredSessionStops() (gas: 1124236)
+[PASS] testMissingAckBoundedRetriesStopCron() (gas: 3056882)
+[PASS] testRegistrationAndActualCrossChainSettlement() (gas: 2100495)
+[PASS] testRejectDirectReactiveCall() (gas: 14107)
+[PASS] testSourceRegistrationToleratesSmallChainClockSkew() (gas: 446115)
+[PASS] testUnboundObservationIgnored() (gas: 33553)
+[PASS] testWrongPublisherIgnored() (gas: 448031)
+Suite result: ok. 7 passed; 0 failed; 0 skipped; finished in 30.00ms (22.93ms CPU time)
+
+Ran 19 tests for test/Spot.t.sol:SpotTest
+[PASS] testActualSettlementAndBoundedTrade() (gas: 329010)
+[PASS] testCannotPreapproveFutureIncident() (gas: 11659)
+[PASS] testDestinationProxyCanCollectCallbackFee() (gas: 7673590)
+[PASS] testDuplicateAndOutOfOrderCannotOversell() (gas: 306056)
+[PASS] testEmergencyLocalWithdraw() (gas: 80029)
+[PASS] testExcessiveFutureObservationRejected() (gas: 29010)
+[PASS] testExpiryDisablesTrading() (gas: 236093)
+[PASS] testFactoryRequiresCallbackGasReserve() (gas: 11128)
+[PASS] testFuzzSettlementNeverBelowRemoteShort(uint96) (runs: 256, μ: 391584, ~: 395529)
+[PASS] testPriceDisagreementQuarantinesWithoutTrade() (gas: 248813)
+[PASS] testProxyAndSenderBothAuthenticated() (gas: 27929)
+[PASS] testRecoveryNeedsCurrentApprovalAndThreeSpacedObservations() (gas: 400217)
+[PASS] testRetryCannotRefreshStaleObservation() (gas: 255688)
+[PASS] testSmallCrossChainClockSkewAccepted() (gas: 294471)
+[PASS] testStaleReferenceNoTrade() (gas: 242111)
+[PASS] testSwapFailureKeepsActualBalanceThenRetrySettles() (gas: 320032)
+[PASS] testThinLiquiditySlippageNoTrade() (gas: 285787)
+[PASS] testTwoUsersIsolatedAndIdentifierCannotBeSquatted() (gas: 4023231)
+[PASS] testWrongStrategyRejected() (gas: 24466)
+Suite result: ok. 19 passed; 0 failed; 0 skipped; finished in 302.59ms (319.54ms CPU time)
+
+Ran 2 test suites in 330.12ms (332.60ms CPU time): 26 tests passed, 0 failed, 0 skipped (26 total tests)
