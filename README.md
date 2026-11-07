@@ -26,6 +26,17 @@ npm run dev
 
 Full GMX compilation takes several minutes and substantial memory. Dependency installation uses `--ignore-scripts --legacy-peer-deps` to match the upstream ethers-v5 stack. The application has a separate viem/wagmi dependency tree. No private key is needed to build, inspect the replay, or use the browser app.
 
+Optional browser verification (with the dev server running):
+
+```sh
+cd app
+npx playwright install chromium
+node test-ui.mjs
+node test-hosted.mjs
+```
+
+Set `PLAYWRIGHT_CHROMIUM_EXECUTABLE` to use an existing Chromium installation.
+
 ## Self-service flow
 
 1. Connect an injected browser wallet funded on Base Sepolia and Unichain Sepolia.

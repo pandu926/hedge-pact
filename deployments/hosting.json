@@ -1,1 +1,12 @@
-{"provider":"Sites","project_id":"appgprj_6aef0ec1a56c8191b8052f847d4e043b","url":"https://hedge-pact.release-worried7z.chatgpt.site","source_repository":"https://github.com/pandu926/hedge-pact","static_directory":"app/dist","reason":"GitHub Pages inherits an unresolved account custom domain. Account-wide DNS settings were preserved."}
+{
+  "provider": "Sites",
+  "project_id": "appgprj_6aef0ec1a56c8191b8052f847d4e043b",
+  "url": "https://hedge-pact.release-worried7z.chatgpt.site",
+  "source_repository": "https://github.com/pandu926/hedge-pact",
+  "static_directory": "app/dist",
+  "reason": "GitHub Pages inherits an unresolved account custom domain. Account-wide DNS settings were preserved.",
+  "status": "succeeded",
+  "version_id": "appgprj_6aef0ec1a56c8191b8052f847d4e043b~appgver_ffa95452861481919b8551ab80aaf933",
+  "deployment_id": "appgdep_6aef1125e8d08191ac7dcb8648761382",
+  "hosting_commit": "bd72e05d6f36769bf9e388071905e19db03598ae"
+}

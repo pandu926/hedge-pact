@@ -1,0 +1,13 @@
+import {chromium,expect} from '@playwright/test';
+import fs from 'node:fs';
+const origin='https://hedge-pact.release-worried7z.chatgpt.site';
+const browser=await chromium.launch({headless:true,executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE,args:['--no-sandbox']});
+const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto(origin,{waitUntil:'domcontentloaded',timeout:45000});await expect(page.getByRole('heading',{name:'Keep both sides of the pact.'})).toBeVisible();
+const proof=await(await page.request.get(`${origin}/proof.json`)).json();if(proof.status!=='VERIFIED'||proof.sold!=='40')throw Error('Hosted proof mismatch');
+const media=await page.request.head(`${origin}/demo.mp4`);if(media.status()!==200)throw Error('Demo is unavailable');
+await page.getByRole('button',{name:'Your strategy',exact:false}).first().click();await expect(page.getByText('Verified demonstration strategy')).toBeVisible({timeout:45000});
+await expect(page.locator('.metric-grid')).toContainText('60');await page.screenshot({path:'../evidence/hosted-strategy.png',fullPage:true});
+await page.getByRole('button',{name:'Activity & proof',exact:false}).first().click();await expect(page.getByText('99660.227478 hpUSD')).toBeVisible();
+if(errors.length)throw Error(errors.join('\n'));
+fs.writeFileSync('../evidence/hosted-check.json',JSON.stringify({status:'PASS',url:origin,proof:'VERIFIED',spotSold:'40 ETH',syntheticUsd:'99660.227478',videoHttpStatus:media.status(),runtimeErrors:errors.length,livePublicRpcReads:true},null,2));await browser.close();
